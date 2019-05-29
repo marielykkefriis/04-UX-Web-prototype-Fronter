@@ -1,0 +1,646 @@
+/*Login*/
+body {
+    background-color: #FAF7F7;
+    margin: 0;
+}
+
+#splashkea {
+    display: flex;
+    background: #EA5045;
+    width: 100%;
+    height: 60vw;
+}
+
+.login_kealogo {
+    display: flex;
+}
+
+#splashkealogo {
+    flex-basis: 1;
+    background-image: url(icons/kealogo.svg);
+    background-size: cover;
+    width: 50vw;
+    height: 12.6vw;
+    margin-top: 25vw;
+    margin-left: 25vw;
+
+}
+
+input[type=text],
+input[type=password] {
+    width: 75%;
+    padding: 14px 20px;
+    margin: 2vw 15vw;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 70vw;
+    font-family: gibson;
+    font-size: 4vw;
+    border: none;
+}
+
+input[type=text] {
+    margin-top: 50vw;
+}
+
+input[placeholder=Enter Username] {
+    color: #EA5045;
+}
+
+.graabutton {
+    border: 2px solid #DEDCDB;
+    margin: 10vw 2vw 1vw 45vw;
+    width: 6vw;
+    border-radius: 70vw;
+
+}
+
+button {
+    background-color: #EA5045;
+    color: white;
+    padding: 17px 20px;
+    margin: 17vw 12vw 0 12vw;
+    border: none;
+    width: 75%;
+    font-family: gibson;
+    font-size: 4vw;
+    border-radius: 70vw;
+    ;
+}
+
+.logincontainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+f button {
+    background-color: #EA5045;
+    color: white;
+    padding: 14px 20px;
+    margin: 45vw 12vw 0vw 12vw;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 70vw;
+    font-size: 4vw;
+}
+
+.facebook {
+    background-color: #FAF7F7;
+    color: white;
+    padding: 14px 20px;
+    margin: 4vw 12vw;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 70vw;
+    border: 1vw solid #EA5045;
+    color: #EA5045;
+    font-family: Gibson;
+    font-size: 4vw;
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .facebook {
+        width: 100%;
+    }
+}
+
+/*Forside*/
+
+.mapper1 {
+    display: flex;
+
+}
+
+.skema img,
+.materialer img,
+.nortifikationer img {
+    padding-top: 7vw;
+    width: 10vw;
+}
+
+.nortifikationer,
+.materialer,
+.skema {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin: 1vw;
+    height: 30vw;
+    width: 20vw;
+    font-family: gibson;
+    font-size: 3vw;
+    font-weight: 550;
+    color: #F58E81;
+    /*
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 18vw;
+    height: 15vw;
+    top: 20vw;
+    text-align: center;
+*/
+}
+
+#mapper2 {
+    display: flex;
+}
+
+.techlounge,
+.mail {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin: 1vw;
+    height: 30vw;
+    font-family: gibson;
+    font-size: 3vw;
+    font-weight: 550;
+    color: #F58E81;
+}
+
+.mail img {
+    padding-top: 7vw;
+}
+
+.techlounge {
+    width: 60vw;
+
+}
+
+.techlounge p {
+    padding-top: 5vw;
+    font-size: 6vw;
+    text-align: center;
+
+}
+
+.mail {
+    width: 27.5vw;
+    left: 66vw;
+}
+
+.mail p {
+    font-family: gibson;
+    font-size: 3vw;
+    font-weight: 550;
+    color: #F58E81;
+}
+
+#mapper3 {
+    display: flex;
+}
+
+.favoritter,
+.grupper,
+.chat {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin: 1vw;
+    height: 30vw;
+    width: 20vw;
+}
+
+.favoritter img,
+.grupper img,
+.chat img {
+    padding-top: 7vw;
+    width: 10vw;
+}
+
+.favoritter p,
+.grupper p,
+.chat p {
+    font-family: gibson;
+    font-size: 3vw;
+    font-weight: 550;
+    color: #F58E81;
+}
+
+#mapper4 {
+    display: flex;
+}
+
+.afleveringer,
+.soeg {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin: 1vw;
+    height: 30vw;
+    width: 31.5vw;
+
+}
+
+.afleveringer {
+    margin-top: 1vw;
+}
+
+.afleveringer img,
+.soeg img {
+    padding-top: 7vw;
+    width: 10vw;
+}
+
+.soeg p,
+.afleveringer p {
+    font-family: gibson;
+    font-size: 3vw;
+    font-weight: 550;
+    color: #F58E81;
+    padding-top: 1vw;
+}
+
+.aktuelt {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+    height: 60vw;
+    width: 20vw;
+    margin: 1vw;
+
+}
+
+.aktuelt p {
+    font-family: gibson;
+    font-size: 8vw;
+    font-weight: 550;
+    color: #F58E81;
+    padding-top: 15vw;
+}
+
+.afleveringer img,
+.soeg img,
+.aktuelt img {
+    padding-top: 7vw;
+
+}
+
+
+/* Burger menu*/
+.hidden {
+    display: none;
+    /*    transform: scale(0);*/
+    /*
+    transform: translateY(100%);
+    opacity: 0;
+*/
+}
+
+
+#burgermenu {
+    /*    display: flex;*/
+    /*
+    width: 100vw;
+    position: absolute;
+    left: 0;
+
+*/
+    flex-grow: 1;
+    text-align: right;
+    z-index: 500;
+
+}
+
+
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    background-color: #3F3140;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    z-index: 600;
+
+    /*
+
+    box-sizing: border-box;
+
+*/
+}
+
+header li a {
+
+    text-decoration: none;
+    /*    text-align: center;*/
+    font-family: gibson;
+    font-size: 1.5rem;
+    color: #F58E81;
+    position: relative;
+    top: 35vw;
+    line-height: 3;
+    font-weight: 600vw;
+}
+
+.logud {
+    background-color: #EA847C;
+    color: white;
+    font-family: gibson;
+    font-weight: 600;
+    line-height: 2.4;
+    font-size: 1.5rem;
+}
+
+/*Header*/
+
+header {
+    height: 20vw;
+    z-index: 800;
+}
+
+#headerikoner {
+    display: flex;
+    justify-content: space-between;
+    background: #EA5045;
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+
+}
+
+.fejlboks {
+    background: #EA5045;
+    width: 100vw;
+    height: 20vw;
+
+}
+
+.header_right {
+    background-color: #EA5045;
+    position: relative;
+    width: 20vw;
+}
+
+#kealogo {
+    background-image: url(icons/kealogo.svg);
+    background-size: cover;
+    height: 5vw;
+    width: 20vw;
+    margin: 6vw;
+
+}
+
+#profilmand {
+    background-image: url(icons/profilmand.svg);
+    background-size: cover;
+    height: 5vw;
+    width: 5vw;
+    /*
+    margin-top: 6vw;
+    margin-left: 40vw;
+*/
+
+    position: absolute;
+    top: 5vw;
+}
+
+#menuknap {
+
+    /*    display: inline-block;*/
+    font-family: sans-serif;
+    font-size: 6vw;
+    /*    display: inline-block;*/
+    color: white;
+    /*    background-color: #fbfbfb;*/
+    position: absolute;
+    top: 3vw;
+    right: 5vw;
+
+}
+
+body {
+    margin: 0;
+}
+
+/*Skema*/
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-basis: 300px;
+}
+
+#graaheader {
+    display: flex;
+    justify-content: space-between;
+    background: #DEDCDB;
+    width: 100vw;
+    height: 20vw;
+}
+
+#graaheader p {
+    margin: 4vw;
+    color: #707070;
+
+}
+
+#graaheader h1 {
+    margin-top: 3vw;
+}
+
+#lillaheader {
+    display: flex;
+    justify-content: space-between;
+    background: #3F3140;
+    width: 100vw;
+    height: 20vw;
+}
+
+.modul1,
+.modul2,
+.modul3 {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FAF7F7;
+}
+
+
+.tid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.tid1 {
+    flex-grow: 1;
+    width: 15vw;
+    height: 15vw;
+    color: #BCC5D3;
+    border: 1px solid;
+}
+
+.tid1 p {
+    margin-left: 2vw;
+    font-family: gibson;
+}
+
+.indhold {
+    background: #F2F1F0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 83vw;
+    border: 0.02px #BCC5D3;
+    color: black;
+    text-decoration: none;
+    font-family: gibson;
+
+}
+
+.indhold p {
+    margin: 5vw;
+    font-family: gibson;
+
+}
+
+.mellemrum {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5vw;
+    border: 1px solid;
+    color: #BCC5D3;
+
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 5vw;
+    font-family: gibson;
+
+}
+
+.tekst h1 {
+    font-size: 4vw;
+}
+
+.tekst p {
+    font-size: 4vw;
+}
+
+.ikoner {
+    flex-grow: 1;
+    margin: 6vw;
+    text-align: right;
+
+}
+
+.maj {
+    margin-left: 4vw;
+    color: white;
+    text-align: center;
+    font-family: gibson;
+    line-height: 5vw;
+    font-size: 3vw;
+
+}
+
+.skemafooter {
+    display: flex;
+    align-items: center;
+    background: #3F3140;
+    width: 100vw;
+    height: 15vw;
+    margin-top: 12.8vw;
+    font-family: gibson;
+
+}
+
+.skemafooter1 {
+    display: flex;
+    align-items: center;
+    background: #3F3140;
+    width: 100vw;
+    height: 15vw;
+    font-family: gibson;
+
+}
+
+.skemafooter .skemaikon {
+    margin-left: 43vw;
+}
+
+.skemaskrift {
+    color: white;
+    margin: 2vw;
+}
+
+.skemafooter1 .skemaikon1 {
+    margin-left: 43vw;
+}
+
+.skemaskrift1 {
+    color: white;
+    margin: 2vw;
+
+}
+
+/*Materialer*/
+
+.slide1,
+.slide2,
+.slide3 {
+    justify-content: space-between;
+    background: #F2F1F0;
+    height: 25vw;
+    margin: 5vw;
+    font-family: gibson;
+}
+
+.slide1 p,
+.slide2 p,
+.slide3 p {
+    margin: 5vw;
+    font-size: 3vw;
+    color: black;
+}
+
+.slide1 h1,
+.slide2 h1,
+.slide3 h1 {
+    font-size: 3.3vw;
+    ;
+    color: black;
+
+}
+
+.materialeikoner {
+    margin-left: 80vw;
+}
+
+.venstrepil img {
+    margin-left: 23vw;
+    margin-top: 8vw;
+    width: 4vw;
+
+}
+
+.hojrepil img {
+    margin-right: 24vw;
+    margin-top: 8vw;
+    width: 4vw;
+
+}
+
+a {
+    text-decoration: none;
+}
